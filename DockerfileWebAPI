@@ -1,0 +1,10 @@
+FROM ubuntu
+
+MAINTAINER Juscelino Ribeiro <juscelino.ribeiro@gmail.com>
+
+RUN apt-get update
+RUN apt-get install -y nginx
+RUN apt-get install -y php5-fpm
+
+CMD 
+
